@@ -126,16 +126,17 @@ color: #404BBF;
 .page-header-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
     display:flex;
     align-items: center;
+    gap:40px;
 }
 
 .nav-list {
 display: flex;
-column-gap: 40px;
+gap: 40px;
 }
 .address-list {
     display: flex;
@@ -159,7 +160,7 @@ column-gap: 40px;
         letter-spacing: 0.02em;
         color: #FFF;
         text-align: center;
-        width: 496px;
+        max-width: 496px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 48px;
@@ -182,6 +183,8 @@ button {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    height: 56px;
+    border: none;
 }
 
 .hero-button:focus {
@@ -214,7 +217,7 @@ button {
 
 .benefits-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .benefits-list {
@@ -268,7 +271,7 @@ color: #434455;
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+   gap: 24px;
 }
 .card-text-container {
     padding-top: 32px;
@@ -322,6 +325,7 @@ color: #434455;
         padding-left: 16px;
         padding-right: 16px;
         border: 1px solid #E7E9FC;
+        border-top: none;
 }
 /* ============== PORTFOLIO STYLES ============== */
 
